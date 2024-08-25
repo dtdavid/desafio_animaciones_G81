@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío animaciones con CSS</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/a3d387ba32.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="menu">
+        <div class="menu_izq">
+          <img
+            src="./assets/img/Logo.png"
+            alt="logo de la web"
+            class="menu_logo"
+          />
+        </div>
+        <div class="menu_der">
+          <ul class="menu_enlaces">
+            <li class="menu_enlaces1"><a href="#img_3">Primavera</a></li>
+            <li class="menu_enlaces2"><a href="#img_4">Verano</a></li>
+            <li class="menu_enlaces3"><a href="#img_1">Otoño</a></li>
+            <li class="menu_enlaces4"><a href="#img_2">Invierno</a></li>
+          </ul>
+        </div>
+      </nav>
+      <main class="principal">
+        <seccion class="galeria">
+          <articulo id="img_1" class="galeria_img">
+            <figure>
+              <img
+                src="./assets/img/otoño.jpg"
+                alt="Árboles caducifolios"
+                class="paisaje_otonal"
+              />
+              <figcaption>Árboles caducifolios</figcaption>
+            </figure>
+          </articulo>
+          <articulo id="img_2" class="galeria_img">
+            <figure>
+              <img
+                src="./assets/img/invierno.jpg"
+                alt="Montaña nevada"
+                class="paisaje_invernal"
+              />
+              <figcaption>Montaña nevada</figcaption>
+            </figure>
+          </articulo>
+          <articulo id="img_3" class="galeria_img">
+            <figure>
+              <img
+                src="./assets/img/primavera.jpg"
+                alt="Magnolias en flor"
+                class="paisaje_primaveral"
+              />
+              <figcaption>Magnolias en flor</figcaption>
+            </figure>
+          </articulo>
+          <articulo id="img_4" class="galeria_img">
+            <figure>
+              <img
+                src="./assets/img/verano.jpg"
+                alt="playa paradisiaca"
+                class="paisaje_veraniego"
+              />
+              <figcaption>Playa paradisiaca</figcaption>
+            </figure>
+          </articulo>
+        </seccion>
+      </main>
+      <footer class="pie">
+        <div class="pie_contacto">
+          <h2>Contacto</h2>
+        </div>
+        <div class="pie_icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-pinterest"></i>
+          <!-- <i class="fa-brands fa-amazon"></i> -->
+          <i class="fa-brands fa-x-twitter"></i>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
